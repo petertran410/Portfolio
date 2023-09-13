@@ -6,12 +6,8 @@ const Experties = () => {
     <section className={css.wrapper}>
       <div
         className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
-        <div className={css.leftSide}>
-
-        </div>
-        <div className={css.rightSide}>
-          
-        </div>
+        <div className={css.leftSide}>Ngọc Nhân</div>
+        <div className={css.rightSide}>Ngọc Nhân</div>
       </div>
     </section>
   );
