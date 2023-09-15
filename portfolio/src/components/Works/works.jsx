@@ -32,6 +32,12 @@ const Works = () => {
             );
           })}
         </div>
+
+        <div className={css.processBar}>
+          <div className={css.line}>
+            
+          </div>
+        </div>
       </div>
     </motion.section>
   );
