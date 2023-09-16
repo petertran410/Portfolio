@@ -50,12 +50,11 @@
           border-radius: 5px;
         }
 
-        > div:nth-child(2),
-        > div:nth-child(3),
-        > div:nth-child(4) {
+        > div {
           flex: 1;
           padding-top: .8rem;
           z-index: 2;
+          padding-right: 10.5px;
 
           .circle {
             border-radius: 50%;

@@ -23,11 +23,18 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
+  "I will help you with finging a solution and solve your problem",
   "We use process design to create digital products. Besides that also help their business",
 ];
 
 export const workExp = [
+  {
+    place: "Self-Employed, Brisbane",
+    tenure: "Aug 2014 - Sep 2016",
+    role: "Visual Designer",
+    detail:
+      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
   {
     place: "Self-Employed, Brisbane",
     tenure: "Aug 2014 - Sep 2016",
@@ -44,6 +51,20 @@ export const workExp = [
   },
   {
     place: "Global Solution",
+    tenure: "Aug 2014 - Sep 2016",
+    role: "Sr. Product Designer",
+    detail:
+      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
+  {
+    place: "Global Solution",
+    tenure: "Aug 2014 - Sep 2016",
+    role: "Sr. Product Designer",
+    detail:
+      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
+  {
+    place: "Huy lê",
     tenure: "Aug 2014 - Sep 2016",
     role: "Sr. Product Designer",
     detail:
