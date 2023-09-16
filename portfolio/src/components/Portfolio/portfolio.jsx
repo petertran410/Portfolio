@@ -13,7 +13,6 @@ const Portfolio = () => {
       className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={`flexCenter ${css.heading}`}>
-          
           <div>
             <span className="primaryText">My Lastest Work</span>
             <p style={{ marginTop: "10px" }}>
@@ -26,21 +25,30 @@ const Portfolio = () => {
 
         {/* Image */}
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.img
-            variants={fadeIn("up", "tween", 0.5, 0.6)}
-            src="./showCase1.png"
-            alt=""
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.6, 0.7)}
-            src="./showCase2.png"
-            alt=""
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.7, 0.8)}
-            src="../../public/showCase3.png"
-            alt=""
-          />
+          <motion.div
+            className="img_1"
+            variants={fadeIn("up", "tween", 0.5, 0.6)}>
+            <motion.img
+              src="./showCase1.png"
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            className="img_1"
+            variants={fadeIn("up", "tween", 0.6, 0.7)}>
+            <motion.img
+              src="./showCase2.png"
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            className="img_1"
+            variants={fadeIn("up", "tween", 0.7, 0.8)}>
+            <motion.img
+              src="./showCase3.png"
+              alt=""
+            />
+          </motion.div>
         </div>
       </div>
     </motion.section>
