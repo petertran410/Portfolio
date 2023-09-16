@@ -14,21 +14,7 @@ const getColor = (index) => {
   return colors[index % colors.length];
 };
 
-// const generateCircles = () => {
-//   const circles = [];
-//   workExp.forEach((exp, index) => {
-//     circles.push(
-//       <div>
-//         <div
-//           className={css.circle}
-//           style={{ backgroundColor: getColor(index) }}></div>
-//       </div>
-//     );
-//   });
-//   return circles;
-// };
-
-function YourComponent() {
+function TheComponent() {
   const circles = [];
 
   workExp.forEach((exp, index) => {
@@ -75,30 +61,11 @@ const Works = () => {
             );
           })}
 
-          {/* <motion.div variants={zoomIn(1, 1)} className={css.processBar}>
-            <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
-            <div>
-              <div
-                className={css.circle}
-                style={{ backgroundColor: "#286FC6" }}></div>
-            </div>
-            <div>
-              <div
-                className={css.circle}
-                style={{ backgroundColor: "#F2704E" }}></div>
-            </div>
-            <div>
-              <div
-                className={css.circle}
-                style={{ backgroundColor: "#EEC048" }}></div>
-            </div>
-          </motion.div> */}
-
           <motion.div variants={zoomIn(1, 1)} className={css.processBar}>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
               className={css.line}></motion.div>
-            {YourComponent()}
+            {TheComponent()}
           </motion.div>
         </div>
       </div>
