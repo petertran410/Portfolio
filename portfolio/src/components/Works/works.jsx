@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./work.module.scss";
 import { motion } from "framer-motion";
-import { staggerChildren, textVariant2 } from "../../utils/motion";
+import { fadeIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
 import { workExp } from "../../utils/data";
 
 const Works = () => {
@@ -18,7 +18,10 @@ const Works = () => {
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
             return (
-              <motion.div variants={textVariant2} className={`flexCenter ${css.exp}`} key={i}>
+              <motion.div
+                variants={textVariant2}
+                className={`flexCenter ${css.exp}`}
+                key={i}>
                 <div className={css.post}>
                   <h1>{exp.place}</h1>
                   <p>{exp.tenure}</p>
@@ -31,12 +34,25 @@ const Works = () => {
               </motion.div>
             );
           })}
-        </div>
 
-        <div className={css.processBar}>
-          <div className={css.line}>
-            
-          </div>
+          <motion.div variants={zoomIn(1, 1)} className={css.processBar}>
+            <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ backgroundColor: "#286FC6" }}></div>
+            </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ backgroundColor: "#F2704E" }}></div>
+            </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ backgroundColor: "#EEC048" }}></div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </motion.section>
