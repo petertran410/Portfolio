@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./hero.module.scss";
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer } from "../../../utils/motion";
+import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 
 const Hero = () => {
   return (
@@ -12,6 +12,9 @@ const Hero = () => {
         variants={staggerContainer}
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}>
+
+        <a className="anchor" id="home"></a>
+
         <div className={css.upperElements}>
           <motion.span
             variants={fadeIn("right", "tween", 0.2, 1)}
