@@ -34,7 +34,7 @@ const People = () => {
             {comments.map((comment, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
-                  <img src={comment.img} alt="" />
+                  <img src={comment.img} alt="Pictures" />
                   <p>{comment.comment}</p>
 
                   <div className={css.line}></div>
