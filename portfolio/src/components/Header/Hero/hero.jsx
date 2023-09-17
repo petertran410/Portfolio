@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./hero.module.scss";
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
+import { fadeIn, slideIn, staggerContainer } from "../../../utils/motion";
 
 const Hero = () => {
   return (
