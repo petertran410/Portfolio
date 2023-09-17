@@ -78,63 +78,63 @@ export const comments = [
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people2.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people1.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "..public/people2.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people1.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people2.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people1.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people2.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people1.png",
+    img: "./face.jbg",
   },
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../public/people2.png",
+    img: "./face.jbg",
   },
 ];
 
