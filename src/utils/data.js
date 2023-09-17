@@ -74,67 +74,67 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
   {
-    name: "Anamika Sandula",
+    name: "Trần Ngọc Nhân",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./face.jbg",
+    img: "./My-face.png",
   },
 ];
 

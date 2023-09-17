@@ -35,7 +35,7 @@ const Hero = () => {
           className={css.person}>
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./face.jbg"
+            src="./My-face.png"
             alt=""
           />
         </motion.div>
