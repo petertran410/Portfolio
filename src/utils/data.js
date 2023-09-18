@@ -22,7 +22,7 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Blueman Advature",
+    place: "Blueman Advanture",
     tenure: "January 2022 - June 2022",
     role: "Coder and Developer",
     detail:
@@ -84,7 +84,7 @@ export const myWorks = [
   },
   {
     img: "./Project-mini.png",
-    link: "https://project-mini-3.netlify.app/",
+    link: "https://github.com/petertran410/Project-mini",
   },
   {
     img: "./Portfolio.png",
