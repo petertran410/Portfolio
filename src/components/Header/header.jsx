@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import css from "./Header.module.scss";
+import css from "./header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";
