@@ -3,6 +3,7 @@ import css from "./work.module.scss";
 import { motion } from "framer-motion";
 import {
   fadeIn,
+  slideIn,
   staggerChildren,
   textVariant2,
   zoomIn,
@@ -42,7 +43,7 @@ const Works = () => {
       <a className="anchor" id="work"></a>
 
       <div className={`flexCenter ${css.container}`}>
-        <span className="primaryText yPaddings">My Work Experience</span>
+        <span className="primaryText yPaddings">My Projects</span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
@@ -51,15 +52,15 @@ const Works = () => {
                 variants={textVariant2}
                 className={`flexCenter ${css.exp}`}
                 key={i}>
-                <div className={css.post}>
+                <motion.div variants={slideIn("left", "tween", 0.6, 0.7)} className={css.post}>
                   <h1>{exp.place}</h1>
                   <p>{exp.tenure}</p>
-                </div>
+                </motion.div>
 
-                <div className={css.role}>
+                <motion.div variants={slideIn("right", "tween", 0.6, 0.7)} className={css.role}>
                   <h1>{exp.role}</h1>
                   <p>{exp.detail}</p>
-                </div>
+                </motion.div>
               </motion.div>
             );
           })}
