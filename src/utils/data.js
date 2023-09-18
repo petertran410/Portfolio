@@ -75,8 +75,17 @@ export const myWorks = [
     link: "https://web-software.netlify.app/",
   },
   {
-    img: 
-  }
+    img: "./AIoTLab.png",
+    link: "https://aiot-lab-vn.netlify.app/",
+  },
+  {
+    img: "./BC-Capstone.png",
+    link: "https://bc-capston-bootstrap.netlify.app/",
+  },
+  {
+    img: "./Project-mini.png",
+    link: "https://project-mini-3.netlify.app/",
+  },
 ]
 
 export const comments = [

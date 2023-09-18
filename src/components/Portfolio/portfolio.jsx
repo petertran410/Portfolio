@@ -2,6 +2,7 @@ import React from "react";
 import css from "./portfolio.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerChildren } from "../../utils/motion";
+import { myWorks } from "../../utils/data";
 
 const Portfolio = () => {
   return (
@@ -27,28 +28,17 @@ const Portfolio = () => {
 
         {/* Image */}
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.a href="https://github.com/petertran410/BluemanAdvanture" target="_blank">
-            <motion.div
-              className="img_1"
-              variants={fadeIn("up", "tween", 0.5, 0.6)}>
-              <motion.img src="./Blueman.png" alt="" />
-            </motion.div>
-          </motion.a>
-
-          <motion.a href="https://web-software.netlify.app/">
-            <motion.div
-              className="img_1"
-              variants={fadeIn("up", "tween", 0.6, 0.7)}>
-              <motion.img src="./Web-Software-M4.png" alt="" />
-            </motion.div>
-          </motion.a>
-          <motion.a href="">
-            <motion.div
-              className="img_1"
-              variants={fadeIn("up", "tween", 0.7, 0.8)}>
-              <motion.img src="./showCase3.png" alt="" />
-            </motion.div>
-          </motion.a>
+          {myWorks.map((work, i) => {
+            return (
+              <motion.a href={work.link} target="_blank">
+                <motion.div
+                  className="img_1"
+                  variants={fadeIn("up", "tween", 0.5, 0.6)}>
+                  <motion.img src={work.img} alt="" />
+                </motion.div>
+              </motion.a>
+            );
+          })}
         </div>
       </div>
     </motion.section>
