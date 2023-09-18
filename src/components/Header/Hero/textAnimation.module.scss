@@ -1,0 +1,19 @@
+.text-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animated-text {
+  font-size: 24px;
+  font-weight: bold;
+  animation: typing 5s steps(4, end) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

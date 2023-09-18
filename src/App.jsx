@@ -2,10 +2,9 @@ import React from "react";
 import Experties from "./components/Experties/experties";
 import Header from "./components/Header/header";
 import Hero from "./components/Header/Hero/hero";
-import People from "./components/People/people";
 import Portfolio from "./components/Portfolio/portfolio";
 import Works from "../src/components/Works/works";
-import css from "./styles/App.module.scss";
+import css from "./styles/app.module.scss";
 
 const App = () => {
   return (
@@ -15,7 +14,6 @@ const App = () => {
       <Experties />
       <Works />
       <Portfolio />
-      <People />
     </div>
   );
 };

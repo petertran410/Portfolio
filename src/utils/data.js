@@ -54,7 +54,7 @@ export const workExp = [
     tenure: "August 2023",
     role: "Web Designer",
     detail:
-      "This is my first project about website which was done by using javascript. I took API from dummyjson and I did some simple things like call API and search name for products and render those product after search. And also I did multi choices that when clicking that button like `iphone` then render back to iphone images ",
+      "This is my first project about website which was done by using most by javascript. What I did was that I took API from dummyJson which is a big website for free API and I did some simple things like I called API by fetchAPI and I created a search name bar to find products and render those product after searching. And also I did multi choices that when clicking that button like `iphone` then render back to iphone images. But unfortunately I fail to call build command on Netlify to run this project perfectly. ",
   },
   {
     place: "Portfolio",
@@ -86,11 +86,14 @@ export const myWorks = [
     img: "./Project-mini.png",
     link: "https://project-mini-3.netlify.app/",
   },
-]
+  {
+    img: "./Portfolio.png",
+  },
+];
 
 export const comments = [
   {
-    name: "Trần Ngọc Nhân",
+    name: "",
     post: "Creative Manager",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -156,7 +159,9 @@ export const comments = [
 
 export const sliderSettings = {
   dots: true,
-  infinite: false,
+  infinite: true,
+  autoplay: true, // Enable autoplay
+  autoplaySpeed: 2000, // Set autoplay interval in milliseconds
   speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -172,6 +177,8 @@ export const sliderSettings = {
         slidesToScroll: 3,
         infinite: true,
         dots: true,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
       },
     },
     {
@@ -180,6 +187,8 @@ export const sliderSettings = {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 2,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
       },
     },
     {
@@ -187,6 +196,8 @@ export const sliderSettings = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
       },
     },
   ],

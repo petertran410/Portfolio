@@ -5,7 +5,7 @@
   color: white;
   position: relative;
 
-  &:before {
+  &::before {
     content: " ";
     position: absolute;
     display: block;

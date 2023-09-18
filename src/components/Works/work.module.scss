@@ -1,6 +1,9 @@
 @import "../../styles/contants.scss";
 
 .wrapper {
+  color: white;
+  background-color: rgba(22, 4, 46, 0.85);
+
   .container {
     flex-direction: column;
     gap: 2rem;
@@ -52,7 +55,7 @@
 
         > div {
           flex: 1;
-          padding-top: .5rem;
+          padding-top: 0.5rem;
           z-index: 2;
           padding-right: 10.5px;
 

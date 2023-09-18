@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
+import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
@@ -43,10 +44,25 @@ const Header = () => {
           <li>
             <a href="#portfolio">Portfolio</a>
           </li>
+          <div className={css.line}></div>
           <li>
-            <a href="#people">Testimonials</a>
+            <a href="https://www.facebook.com/">
+              <BsFacebook />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/trần-ngọc-nhân-76b7b7273/">
+              <BsLinkedin />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/petertran410">
+              <BsGithub />
+            </a>
           </li>
         </ul>
+
+        
 
         {/* for medium and small screens */}
         <div

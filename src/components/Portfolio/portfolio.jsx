@@ -2,7 +2,8 @@ import React from "react";
 import css from "./portfolio.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerChildren } from "../../utils/motion";
-import { myWorks } from "../../utils/data";
+import { myWorks, sliderSettings } from "../../utils/data";
+import Slider from "react-slick";
 
 const Portfolio = () => {
   return (
@@ -27,18 +28,19 @@ const Portfolio = () => {
         </div>
 
         {/* Image */}
-        <div className={`flexCenter ${css.showCase}`}>
-          {myWorks.map((work, i) => {
-            return (
-              <motion.a href={work.link} target="_blank">
-                <motion.div
-                  className="img_1"
-                  variants={fadeIn("up", "tween", 0.5, 0.6)}>
-                  <motion.img src={work.img} alt="" />
-                </motion.div>
-              </motion.a>
-            );
-          })}
+        <div className={`yPaddings ${css.showCase}`}>
+          {/* to use slider , we have to inlcude css in index.html head */}
+          <Slider {...sliderSettings} className={css.slider}>
+            {myWorks.map((work, i) => {
+              return (
+                <div className={`flexCenter ${css.inner_img}`}>
+                  <a href={work.link} target="_blank">
+                    <img src={work.img} alt="Pictures" />
+                  </a>
+                </div>
+              );
+            })}
+          </Slider>
         </div>
       </div>
     </motion.section>

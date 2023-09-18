@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./hero.module.scss";
+import TextAnimation from "./textAnimation";
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer } from "../../../utils/motion";
 
@@ -12,14 +13,13 @@ const Hero = () => {
         variants={staggerContainer}
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}>
-
         <a className="anchor" id="home"></a>
 
         <div className={css.upperElements}>
           <motion.span
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText">
-            My name is Nhan
+            <TextAnimation />
           </motion.span>
           <motion.span
             className="secondaryText"
@@ -47,14 +47,18 @@ const Hero = () => {
         </motion.a> */}
 
         <div className={css.lowerElements}>
-          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
+          <motion.div
+            variants={fadeIn("right", "tween", 0.3, 1)}
+            className={css.experience}>
             {/* <div className="primaryText">10</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Expriences</div>
             </div> */}
           </motion.div>
-          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certification}>
+          <motion.div
+            variants={fadeIn("left", "tween", 0.5, 1)}
+            className={css.certification}>
             {/* <img src="./certificate.png" alt="" />
             <span>CERTIFIED PROFATIONAL</span>
             <span>UI/UX DESIGNER</span> */}

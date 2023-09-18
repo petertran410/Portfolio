@@ -31,7 +31,6 @@
         height: calc(100vh - 6.3rem);
         width: 50%;
         min-width: 15rem;
-        background: white;
         padding: 2rem;
         display: flex;
         border-radius: 10px;
@@ -59,6 +58,12 @@
         }
       }
 
+      .line {
+        width: 2px; /* Adjust the width of your vertical line as needed */
+        height: 20px; /* Make the line as tall as its container */
+        background-color: #000; /* Set the background color of the line */
+      }
+
       .phone {
         gap: 1.2rem;
         flex-wrap: wrap;
@@ -80,5 +85,7 @@
 
       display: none;
     }
+
+    
   }
 }
