@@ -52,12 +52,12 @@ const Works = () => {
                 variants={textVariant2}
                 className={`flexCenter ${css.exp}`}
                 key={i}>
-                <motion.div variants={slideIn("left", "tween", 0.6, 0.7)} className={css.post}>
+                <motion.div variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)} className={css.post}>
                   <h1>{exp.place}</h1>
                   <p>{exp.tenure}</p>
                 </motion.div>
 
-                <motion.div variants={slideIn("right", "tween", 0.6, 0.7)} className={css.role}>
+                <motion.div variants={fadeIn("left", "tween", (i + 1) * 0.2, 1)} className={css.role}>
                   <h1>{exp.role}</h1>
                   <p>{exp.detail}</p>
                 </motion.div>
