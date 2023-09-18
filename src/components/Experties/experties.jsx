@@ -12,8 +12,8 @@ const Experties = () => {
       variants={staggerContainer}
       viewport={{ once: false, amount: 0.25 }}
       className={css.wrapper}>
-
-<a className="anchor" id="experties"></a>
+        
+      <a className="anchor" id="experties"></a>
 
       <div
         className={`paddings yPaddings flexCenter innerWidth ${css.container}`}>
@@ -38,7 +38,7 @@ const Experties = () => {
         </div>
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
           <span className="primaryText">
-            What do I help
+            About me
             <br />
           </span>
           {WhatDoIHelp.map((paragraph, i) => {
@@ -51,12 +51,8 @@ const Experties = () => {
 
           <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">285+</span>
+              <span className="primaryText">5+</span>
               <span className="secondaryText">Projects Completed</span>
-            </div>
-            <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">190+</span>
-              <span className="secondaryText">Client Happy</span>
             </div>
           </div>
         </motion.div>

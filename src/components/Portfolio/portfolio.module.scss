@@ -33,25 +33,27 @@
     .showCase {
       width: 100%;
       gap: 1.5rem;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
 
-      >div {
-        > img {
-          @media (max-width: $sm) {
-            width: 100%;
-          }
+      > a {
+        > div {
+          > img {
+            @media (max-width: $sm) {
+              width: 100%;
+            }
 
-          border-radius: 20px;
-          max-width: 25rem;
-          max-height: 18rem;
-          box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.4);
-          cursor: pointer;
-          transition: transform 0.5s ease, box-shadow 0.5s ease;
+            border-radius: 20px;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
 
-          &:hover {
-            // box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            transform: translateY(-20px);
+            &:hover {
+              transform: translateY(-25px);
+            }
           }
         }
       }

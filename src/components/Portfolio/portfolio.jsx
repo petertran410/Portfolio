@@ -11,16 +11,15 @@ const Portfolio = () => {
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}>
-
       <a className="anchor" id="portfolio"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={`flexCenter ${css.heading}`}>
           <div>
-            <span className="primaryText">My Lastest Work</span>
-            <p style={{ marginTop: "10px" }}>
+            <span className="primaryText">My Works</span>
+            {/* <p style={{ marginTop: "10px" }}>
               Perfect solution for digital experience
-            </p>
+            </p> */}
           </div>
 
           <span className="secondaryText">Explore More Works</span>
@@ -28,30 +27,28 @@ const Portfolio = () => {
 
         {/* Image */}
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.div
-            className="img_1"
-            variants={fadeIn("up", "tween", 0.5, 0.6)}>
-            <motion.img
-              src="./showCase1.png"
-              alt=""
-            />
-          </motion.div>
-          <motion.div
-            className="img_1"
-            variants={fadeIn("up", "tween", 0.6, 0.7)}>
-            <motion.img
-              src="./showCase2.png"
-              alt=""
-            />
-          </motion.div>
-          <motion.div
-            className="img_1"
-            variants={fadeIn("up", "tween", 0.7, 0.8)}>
-            <motion.img
-              src="./showCase3.png"
-              alt=""
-            />
-          </motion.div>
+          <motion.a href="https://github.com/petertran410/BluemanAdvanture" target="_blank">
+            <motion.div
+              className="img_1"
+              variants={fadeIn("up", "tween", 0.5, 0.6)}>
+              <motion.img src="./Blueman.png" alt="" />
+            </motion.div>
+          </motion.a>
+
+          <motion.a href="https://web-software.netlify.app/">
+            <motion.div
+              className="img_1"
+              variants={fadeIn("up", "tween", 0.6, 0.7)}>
+              <motion.img src="./Web-Software-M4.png" alt="" />
+            </motion.div>
+          </motion.a>
+          <motion.a href="">
+            <motion.div
+              className="img_1"
+              variants={fadeIn("up", "tween", 0.7, 0.8)}>
+              <motion.img src="./showCase3.png" alt="" />
+            </motion.div>
+          </motion.a>
         </div>
       </div>
     </motion.section>

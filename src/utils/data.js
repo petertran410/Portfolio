@@ -4,73 +4,80 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 5,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Java Project",
+    projects: 1,
     icon: CiMobile1,
     bg: "#EEC048",
-  },
-  {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem",
-  "We use process design to create digital products. Besides that also help their business",
+  "My interests are there innovation, design and development of user-friendly interfaces. I excel in working in a team and valuing open communication and collaboration. I have gained valuable things through personal projects experience and I look forward to continuing to learn and advancement as a software engineer",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Blueman Advature",
+    tenure: "January 2022 - June 2022",
+    role: "Coder and Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Me and three more people which are my friends worked together to develop a java game which is in indie version. Our project was for project Oject Oriented Program course at my school. We done 99% for the project and it run perfectly.",
   },
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Web Software-M4",
+    tenure: "March 2023 - April 2023",
+    role: "Web Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "This is my first project about website. The idea for doing this project was based on the same as the project `Web Software-M4`.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "AIoT Lab",
+    tenure: "June 2023",
+    role: "Web Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "AIoT Lab is the first AIot Lab takes name as AIoT Lab VN, this project is about to introduce the information of the lab. This project is just done 65%. The information inside this project is not yet finished due to lab convenience",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "BC-Capstone",
+    tenure: "July 2023",
+    role: "Web Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "This project was designed completely 100% by using bootstrap which member did this project included three members which are me and two more friends.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Project-mini",
+    tenure: "August 2023",
+    role: "Web Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "This is my first project about website which was done by using javascript. I took API from dummyjson and I did some simple things like call API and search name for products and render those product after search. And also I did multi choices that when clicking that button like `iphone` then render back to iphone images ",
   },
   {
-    place: "Huy lê",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Portfolio",
+    tenure: "September 2023",
+    role: "Web Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Portfolio is a project that I did my first time using reactJs. This project contains my information, my hobby, my other projects and so on.",
   },
 ];
+
+export const myWorks = [
+  {
+    img: "./Blueman.png",
+    link: "https://github.com/petertran410/BluemanAdvanture",
+  },
+  {
+    img: "./Web-Software-M4.png",
+    link: "https://web-software.netlify.app/",
+  },
+  {
+    img: 
+  }
+]
 
 export const comments = [
   {
