@@ -39,7 +39,6 @@ const Works = () => {
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}>
-
       <a className="anchor" id="work"></a>
 
       <div className={`flexCenter ${css.container}`}>
@@ -48,20 +47,21 @@ const Works = () => {
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
             return (
-              <motion.div
-                variants={textVariant2}
-                className={`flexCenter ${css.exp}`}
-                key={i}>
-                <motion.div variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)} className={css.post}>
+              <div className={`flexCenter ${css.exp}`} key={i}>
+                <motion.div
+                  variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}
+                  className={css.post}>
                   <h1>{exp.place}</h1>
                   <p>{exp.tenure}</p>
                 </motion.div>
 
-                <motion.div variants={fadeIn("left", "tween", (i + 1) * 0.2, 1)} className={css.role}>
+                <motion.div
+                  variants={fadeIn("left", "tween", (i + 1) * 0.2, 1)}
+                  className={css.role}>
                   <h1>{exp.role}</h1>
                   <p>{exp.detail}</p>
                 </motion.div>
-              </motion.div>
+              </div>
             );
           })}
 
