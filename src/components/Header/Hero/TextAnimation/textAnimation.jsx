@@ -6,7 +6,7 @@ function TextAnimation() {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [displayLetter, setDisplayLetter] = useState("");
-  const letterDelay = 150; // Adjust the delay (in milliseconds) between each letter
+  const letterDelay = 250; // Adjust the delay (in milliseconds) between each letter
 
   useEffect(() => {
     const currentText = texts[currentTextIndex];

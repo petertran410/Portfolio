@@ -177,6 +177,7 @@ export const sliderSettings = {
   initialSlide: 0,
   touchMove: true,
   useCSS: true,
+  arrows: true,
 
   responsive: [
     {

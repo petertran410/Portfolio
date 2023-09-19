@@ -53,6 +53,8 @@
       gap: 1.5rem;
       justify-content: space-around;
 
+      /* Styles for the react-slick slider arrows */
+
       .slider :global {
         .slick-list {
           margin: 0 -7px;
@@ -70,7 +72,38 @@
             }
           }
         }
+
+        .slick-next::before,
+        .slick-prev::before {
+          font-size: 40px;
+          background-color: unset;
+          color: #080000;
+          opacity: 0.3;
+          transition: opacity 2.5s ease;
+          
+        }
+        .slick-prev:hover::before, .slick-next:hover::before {
+          opacity: 1;
+          transition: opacity 2s ease-out;
+          animation: opacityChange 10s forwards;
+        }
+        @keyframes opacityChange {
+          0% {
+            opacity: 0.3;
+          }
+          100% {
+            opacity: 0.8;
+          }
+        }
+
+        .slick-prev {
+          left: -50px;
+        }
+        .slick-next {
+          right: -50px;
+        }
       }
+
       .inner_img {
         padding: 2rem;
         display: flex !important;
