@@ -41,8 +41,8 @@ const Works = () => {
       className={`paddings ${css.wrapper}`}>
       <a className="anchor" id="work"></a>
 
-      <div className={`flexCenter ${css.container}`}>
-        <span className="primaryText yPaddings">My Projects</span>
+      <motion.div className={`flexCenter ${css.container}`}>
+        <motion.span variants={zoomIn(0.5, 0.7)} className="primaryText yPaddings">My Projects</motion.span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
@@ -72,7 +72,7 @@ const Works = () => {
             {TheComponent()}
           </motion.div>
         </div>
-      </div>
+      </motion.div>
     </motion.section>
   );
 };

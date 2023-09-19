@@ -135,7 +135,7 @@ export const footerVariants = {
 };
 
 export const staggerChildren = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 1 },
   show: {
     opacity: 1,
     transition: {

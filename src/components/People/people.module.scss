@@ -1,6 +1,8 @@
 @import "../../styles/contants.scss";
 
 .wrapper {
+  margin: 0;
+  padding: 0;
   .container {
     .heading {
       flex-direction: column;

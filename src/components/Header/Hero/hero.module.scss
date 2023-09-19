@@ -4,6 +4,8 @@
   overflow: hidden;
   color: white;
   position: relative;
+  padding: 0;
+  margin: 0;
 
   &::before {
     content: " ";
