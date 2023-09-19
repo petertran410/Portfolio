@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./hero.module.scss";
-import TextAnimation from "./textAnimation";
+import TextAnimation from "./TextAnimation/textAnimation";
+import SecondaryTextAnimation from "./TextAnimation/secondTextAnimation";
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer } from "../../../utils/motion";
 
@@ -15,7 +16,7 @@ const Hero = () => {
         className={`innerWidth ${css.container}`}>
         <a className="anchor" id="home"></a>
 
-        <div className={css.upperElements}>
+        <motion.div className={css.upperElements}>
           <motion.span
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText">
@@ -24,16 +25,17 @@ const Hero = () => {
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}>
-            For Website editing, I love designing beautiful websites
+            {/* <TextAnimation text="For Website designer, I love designing beautiful websites" /> */}
+            <SecondaryTextAnimation />
           </motion.span>
-        </div>
+        </motion.div>
 
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}>
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./140992364_211872550601663_7230069498393036954_n.jpg"
+            src="./My-face.png"
             alt=""
           />
         </motion.div>

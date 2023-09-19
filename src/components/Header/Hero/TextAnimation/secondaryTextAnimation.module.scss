@@ -1,12 +1,12 @@
 .text-container {
-  overflow: hidden;
-  white-space: nowrap;
+  height: 1000px;
 }
 
 .animated-text {
   font-size: 24px;
   font-weight: bold;
   animation: typing 5s steps(4, end) infinite;
+  margin-bottom: 20px;
 }
 
 @keyframes typing {

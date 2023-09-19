@@ -33,18 +33,30 @@
       }
 
       > :nth-child(1) {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-left: 70%;
+        > div {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-left: 70%;
+          font-size: 35px;
+          height: 100px;
+          margin-bottom: 20px;
+        }
       }
 
       > :nth-child(2) {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-left: 70%;
-        opacity: 1;
+        > div {
+          display: flex;
+          justify-content: center;
+          padding-bottom: 60px;
+          height: 100px;
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-left: 70%;
+          opacity: 1;
+        }
       }
     }
 
@@ -103,10 +115,10 @@
         @media (max-width: $sm) {
           width: 23rem;
         }
-        width: 100%;
+        width: 50%;
         margin-bottom: 5px;
         border-radius: 50%;
-        margin-left: -90%;
+        margin-left: -50%;
       }
     }
 

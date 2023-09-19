@@ -65,6 +65,15 @@ export const workExp = [
   },
 ];
 
+export const introHeader = [
+  {
+    name: "My name is Nhan",
+  },
+  {
+    name: "For website developer",
+  },
+]
+
 export const myWorks = [
   {
     img: "./Blueman.png",
