@@ -2,12 +2,11 @@ import React, { useEffect, useState } from "react";
 import css from "./portfolio.module.scss";
 // import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { staggerChildren } from "../../utils/motion";
+import { staggerChildren, zoomIn } from "../../utils/motion";
 import { myWorks, sliderSettings } from "../../utils/data";
 import Slider from "react-slick";
 
 const Portfolio = () => {
-
   return (
     <motion.section
       initial="hidden"
@@ -17,14 +16,16 @@ const Portfolio = () => {
       className={`paddings ${css.wrapper}`}>
       <a className="anchor" id="portfolio"></a>
 
-      <div className={`innerWidth flexCenter ${css.container}`}>
-        <div className={`flexCenter ${css.heading}`}>
+      <motion.div className={`innerWidth flexCenter ${css.container}`}>
+        <motion.div
+          variants={zoomIn(0.5, 0.7)}
+          className={`flexCenter ${css.heading}`}>
           <div>
             <span className="primaryText">My Works</span>
           </div>
 
           <span className="secondaryText">Explore More Works</span>
-        </div>
+        </motion.div>
 
         {/* Image */}
         <div className={`yPaddings ${css.showCase}`}>
@@ -41,7 +42,7 @@ const Portfolio = () => {
             })}
           </Slider>
         </div>
-      </div>
+      </motion.div>
     </motion.section>
   );
 };
