@@ -4,6 +4,7 @@ import css from "./portfolio.module.scss";
 import { motion } from "framer-motion";
 import { staggerChildren, zoomIn } from "../../utils/motion";
 import { myWorks, sliderSettings } from "../../utils/data";
+import WebFont from "webfontloader";
 import Slider from "react-slick";
 
 const Portfolio = () => {
@@ -45,7 +46,7 @@ const Portfolio = () => {
       whileInView="show"
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      className={`paddings fontSet-lowerBody ${css.wrapper}`}
       onMouseEnter={() => setIsMouseActive(true)}
       onMouseLeave={() => setIsMouseActive(false)}>
       <a className="anchor" id="portfolio"></a>

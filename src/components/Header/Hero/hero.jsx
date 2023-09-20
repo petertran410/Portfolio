@@ -13,7 +13,7 @@ const Hero = () => {
         whileInView="show"
         variants={staggerContainer}
         viewport={{ once: false, amount: 0.25 }}
-        className={`innerWidth ${css.container}`}>
+        className={`innerWidth fontSet-upperBody ${css.container}`}>
         <a className="anchor" id="home"></a>
 
         <motion.div className={css.upperElements}>

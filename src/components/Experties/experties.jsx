@@ -11,7 +11,7 @@ const Experties = () => {
       whileInView="show"
       variants={staggerContainer}
       viewport={{ once: false, amount: 0.25 }}
-      className={css.wrapper}>
+      className={`fontSet-lowerBody ${css.wrapper}`}>
       <a className="anchor" id="experties"></a>
 
       <div

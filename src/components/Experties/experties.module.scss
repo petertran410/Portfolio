@@ -66,8 +66,12 @@
         gap: 4rem;
 
         .stat {
-          flex-direction: column;
+          // flex-direction: column;
           justify-content: flex-start;
+
+          >:nth-child(1) {
+            margin-right: 10px;
+          }
         }
       }
     }

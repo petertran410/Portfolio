@@ -38,7 +38,7 @@ const Works = () => {
       whileInView="show"
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}>
+      className={`paddings fontSet-lowerBody ${css.wrapper}`}>
       <a className="anchor" id="work"></a>
 
       <motion.div className={`flexCenter ${css.container}`}>
