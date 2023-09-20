@@ -7,14 +7,49 @@ import { myWorks, sliderSettings } from "../../utils/data";
 import Slider from "react-slick";
 
 const Portfolio = () => {
+  const [isMouseActive, setIsMouseActive] = useState(false);
+  const [arrowOpacity, setArrowOpacity] = useState(0.3);
+
+  useEffect(() => {
+    // const arrowLeft = document.querySelector(".slick-prev");
+    let timer;
+    if (isMouseActive) {
+      // When mouse is over the section or arrows, increase opacity to 0.8 over 10 seconds
+      timer = setInterval(() => {
+        if (arrowOpacity < 0.8) {
+          setArrowOpacity((opacity) => opacity + 0.05);
+        }
+      }, 1500);
+    } else {
+      timer = setInterval(() => {
+        if (arrowOpacity > 0.3) {
+          setArrowOpacity((opacity) => opacity - 0.05);
+        }
+      }, 3000);
+    }
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [isMouseActive, arrowOpacity]);
+
+  // const handleMouseEnter = () => {
+  // };
+
+  // const handleMouseLeave = () => {
+  //   setIsMouseActive(false);
+  // };
   return (
     <motion.section
       initial="hidden"
       whileInView="show"
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}>
+      className={`paddings ${css.wrapper}`}
+      onMouseEnter={() => setIsMouseActive(true)}
+      onMouseLeave={() => setIsMouseActive(false)}>
       <a className="anchor" id="portfolio"></a>
+      {isMouseActive}
 
       <motion.div className={`innerWidth flexCenter ${css.container}`}>
         <motion.div

@@ -11,9 +11,9 @@ const App = () => {
     <div className={`bg-primary ${css.container}`}>
       <Header />
       <Hero />
+      <Portfolio />
       <Experties />
       <Works />
-      <Portfolio />
     </div>
   );
 };
