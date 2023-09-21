@@ -3,9 +3,9 @@ import css from "./header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { getMenuStyles, headerVariants } from "../../utils/motion";
-import useOutsideAlerter from "../../hooks/useOutsideAlerter";
-import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { getMenuStyles, headerVariants } from "../../../utils/motion";
+import useOutsideAlerter from "../../../hooks/useOutsideAlerter";
+import useHeaderShadow from "../../../hooks/useHeaderShadow";
 
 const Header = () => {
   const menuRef = useRef(null);

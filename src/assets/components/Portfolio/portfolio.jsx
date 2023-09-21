@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import css from "./portfolio.module.scss";
 // import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { staggerChildren, zoomIn } from "../../utils/motion";
-import { myWorks, sliderSettings } from "../../utils/data";
+import { staggerChildren, zoomIn } from "../../../utils/motion";
+import { myWorks, sliderSettings } from "../../../utils/data";
 import Slider from "react-slick";
 
 const Portfolio = () => {

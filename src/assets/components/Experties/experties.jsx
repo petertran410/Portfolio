@@ -1,8 +1,8 @@
 import React from "react";
 import css from "./experties.module.scss";
-import { WhatDoIHelp, projectExperience } from "../../utils/data";
+import { WhatDoIHelp, projectExperience } from "../../../utils/data";
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer, textVariant } from "../../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../../../utils/motion";
 
 const Experties = () => {
   return (
