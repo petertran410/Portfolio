@@ -33,7 +33,7 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}>
           <li>
-            <a href="#home">Home</a>
+            <a href="">Home</a>
           </li>
           <li>
             <a href="#experties">About</a>
