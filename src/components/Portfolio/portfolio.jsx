@@ -4,7 +4,6 @@ import css from "./portfolio.module.scss";
 import { motion } from "framer-motion";
 import { staggerChildren, zoomIn } from "../../utils/motion";
 import { myWorks, sliderSettings } from "../../utils/data";
-import WebFont from "webfontloader";
 import Slider from "react-slick";
 
 const Portfolio = () => {

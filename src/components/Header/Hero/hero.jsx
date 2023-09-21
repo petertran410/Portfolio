@@ -1,4 +1,5 @@
 import React from "react";
+import Embed from 'react-embed';
 import css from "./hero.module.scss";
 import TextAnimation from "./TextAnimation/textAnimation";
 import SecondaryTextAnimation from "./TextAnimation/secondTextAnimation";
@@ -72,3 +73,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
