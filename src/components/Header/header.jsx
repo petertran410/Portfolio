@@ -27,7 +27,7 @@ const Header = () => {
       viewport={{ once: true, amount: 0.25 }}
       style={{ boxShadow: headerShadow }}>
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Trần Ngọc Nhân</div>
+        <div className={css.name}>Tran Ngoc Nhan</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
