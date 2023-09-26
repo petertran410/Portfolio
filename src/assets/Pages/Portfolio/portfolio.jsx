@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import css from "./portfolio.module.scss";
-// import { BiCaretLeft, BiCaretRight } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { staggerChildren, zoomIn } from "../../utils/motion";
-import { myWorks, sliderSettings } from "../../utils/data";
+import { staggerChildren, zoomIn } from "../../../utils/motion";
+import { myWorks, sliderSettingsPortfolio } from "../../../utils/data";
 import Slider from "react-slick";
 
 const Portfolio = () => {
@@ -64,8 +63,7 @@ const Portfolio = () => {
 
         {/* Image */}
         <div className={`yPaddings ${css.showCase}`}>
-          {/* to use slider , we have to inlcude css in index.html head */}
-          <Slider {...sliderSettings} className={css.slider}>
+          <Slider {...sliderSettingsPortfolio} className={css.slider}>
             {myWorks.map((work, i) => {
               return (
                 <div key={i} className={`flexCenter ${css.inner_img}`}>

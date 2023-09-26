@@ -1,8 +1,8 @@
 import React from "react";
 import css from "./experties.module.scss";
-import { WhatDoIHelp, projectExperience } from "../../utils/data";
+import { WhatDoIHelp, projectExperience } from "../../../utils/data";
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer, textVariant } from "../../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../../../utils/motion";
 
 const Experties = () => {
   return (
@@ -61,5 +61,3 @@ const Experties = () => {
 };
 
 export default Experties;
-
-{/* <iframe src="https://giphy.com/embed/3oKIPtjElfqwMOTbH2" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/space-spin-2d-3oKIPtjElfqwMOTbH2">via GIPHY</a></p> */}

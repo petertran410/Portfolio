@@ -3,9 +3,9 @@ import css from "./header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { getMenuStyles, headerVariants } from "../../utils/motion";
-import useOutsideAlerter from "../../hooks/useOutsideAlerter";
-import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { getMenuStyles, headerVariants } from "../../../utils/motion";
+import useOutsideAlerter from "../../../hooks/useOutsideAlerter";
+import useHeaderShadow from "../../../hooks/useHeaderShadow";
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -33,7 +33,7 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}>
           <li>
-            <a href="#home">Home</a>
+            <a href="">Home</a>
           </li>
           <li>
             <a href="#experties">About</a>
@@ -47,7 +47,7 @@ const Header = () => {
           <div className={css.line}></div>
           <li>
             <a href="https://www.facebook.com/">
-              <BsFacebook />
+              <BsFacebook /> 
             </a>
           </li>
           <li>

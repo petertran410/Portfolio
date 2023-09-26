@@ -1,10 +1,11 @@
 import React from "react";
-import Experties from "./components/Experties/experties";
-import Header from "./components/Header/header";
-import Hero from "./components/Header/Hero/hero";
-import Portfolio from "./components/Portfolio/portfolio";
-import Works from "../src/components/Works/works";
+import Experties from "./assets/Pages/Experties/experties";
+import Header from "./assets/components/Header/header";
+import Hero from "./assets/components/Header/Hero/hero";
+import Portfolio from "./assets/Pages/Portfolio/portfolio";
+import Works from "../src/assets/Pages/Works/works";
 import css from "./styles/app.module.scss";
+import MySkill from "./assets/Pages/MySkill/mySkill";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       <Header />
       <Hero />
       <Portfolio />
-      <Experties />
       <Works />
+      <Experties />
+      <MySkill />
     </div>
   );
 };

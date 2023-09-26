@@ -1,0 +1,75 @@
+@import "../../../styles/contants.scss";
+
+.wrapper {
+  background-color: rgba(22, 4, 46, 0.85);
+  color: white;
+  padding-top: 150px;
+
+  .container {
+    flex-direction: column;
+    // gap: 2rem;
+
+    .showSkills {
+      width: 100%;
+      gap: 0.5rem;
+      justify-content: space-around;
+
+      /* Styles for the react-slick slider arrows */
+
+      .slider :global {
+        .slick-list {
+          margin: 0 -7px;
+          box-sizing: initial;
+          & .slick-slide > div {
+            padding: 0 20px;
+          }
+        }
+
+        .slick-next::before,
+        .slick-prev::before {
+          font-size: 40px;
+          background-color: unset;
+          color: #080000;
+          opacity: 0.3;
+          transition: opacity 2.5s ease;
+        }
+        .slick-prev:hover::before,
+        .slick-next:hover::before {
+          opacity: 1;
+          transition: opacity 2s ease-out;
+          animation: opacityChange 10s forwards;
+        }
+        @keyframes opacityChange {
+          0% {
+            opacity: 0.3;
+          }
+          100% {
+            opacity: 0.8;
+          }
+        }
+
+        .slick-prev {
+          left: -50px;
+        }
+        .slick-next {
+          right: -50px;
+        }
+      }
+
+      .inner_img {
+        display: flex !important;
+        flex-direction: column;
+        position: relative;
+
+        > img {
+          @media (max-width: $sm) {
+            width: 70%;
+          }
+          width: 70px;
+          height: 70px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

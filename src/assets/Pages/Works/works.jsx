@@ -7,8 +7,8 @@ import {
   staggerChildren,
   textVariant2,
   zoomIn,
-} from "../../utils/motion";
-import { workExp } from "../../utils/data";
+} from "../../../utils/motion";
+import { workExp } from "../../../utils/data";
 
 const getColor = (index) => {
   const colors = ["#286FC6", "#F2704E", "#EEC048"];

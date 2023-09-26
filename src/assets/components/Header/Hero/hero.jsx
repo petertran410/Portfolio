@@ -4,7 +4,7 @@ import css from "./hero.module.scss";
 import TextAnimation from "./TextAnimation/textAnimation";
 import SecondaryTextAnimation from "./TextAnimation/secondTextAnimation";
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer } from "../../../utils/motion";
+import { fadeIn, slideIn, staggerContainer } from "../../../../utils/motion";
 
 const Hero = () => {
   return (
