@@ -12,8 +12,8 @@ const App = () => {
     <div className={`bg-primary ${css.container}`}>
       <Header />
       <Hero />
-      <Works />
       <Portfolio />
+      <Works />
       <Experties />
       <MySkill />
     </div>

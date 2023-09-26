@@ -166,11 +166,32 @@ export const comments = [
   },
 ];
 
-export const sliderSettings = {
+export const mySkills = [
+  {
+    img: "./html.png",
+  },
+  {
+    img: "./css.png",
+  },
+  {
+    img: "./js.png",
+  },
+  {
+    img: "./bootstrap.png",
+  },
+  {
+    img: "./atom.png",
+  },
+  {
+    img: "./java.png",
+  },
+];
+
+export const sliderSettingsPortfolio = {
   dots: true,
   infinite: true,
-  autoplay: true, // Enable autoplay
-  autoplaySpeed: 2000, // Set autoplay interval in milliseconds
+  autoplay: true, 
+  autoplaySpeed: 2000,
   speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -187,8 +208,8 @@ export const sliderSettings = {
         slidesToScroll: 3,
         infinite: true,
         dots: true,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
+        autoplay: true,
+        autoplaySpeed: 1500,
       },
     },
     {
@@ -197,8 +218,8 @@ export const sliderSettings = {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 2,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
+        autoplay: true,
+        autoplaySpeed: 1500,
       },
     },
     {
@@ -206,8 +227,55 @@ export const sliderSettings = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 1500, // Set autoplay interval in milliseconds
+        autoplay: true, 
+        autoplaySpeed: 1500,
+      },
+    },
+  ],
+};
+
+export const sliderSettingsMySkills = {
+  dots: false,
+  infinite: true,
+  autoplay: true, 
+  autoplaySpeed: 2000,
+  speed: 1000,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  touchMove: true,
+  useCSS: true,
+  arrows: false,
+
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+      },
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+        autoplay: true,
+        autoplaySpeed: 1500,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true, 
+        autoplaySpeed: 1500,
       },
     },
   ],
