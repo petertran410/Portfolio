@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import css from "./header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
@@ -61,8 +61,6 @@ const Header = () => {
             </a>
           </li>
         </ul>
-
-        
 
         {/* for medium and small screens */}
         <div
