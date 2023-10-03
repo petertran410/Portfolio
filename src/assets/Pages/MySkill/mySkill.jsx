@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./mySKill_module.scss";
+import css from "./mySkill.module.scss";
 import Slider from "react-slick";
 import { mySkills, sliderSettingsMySkills } from "../../../utils/data";
 import { staggerChildren, zoomIn } from "../../../utils/motion";
