@@ -1,0 +1,19 @@
+.text-container {
+  height: 1000px;
+}
+
+.animated-text {
+  font-size: 24px;
+  font-weight: bold;
+  animation: typing 5s steps(4, end) infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}/*# sourceMappingURL=textAnimation.module.css.map */
