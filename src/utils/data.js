@@ -29,6 +29,12 @@ export const workExp = [
       "Me and three more people which are my friends worked together to develop a java game which is in indie version. Our project was for project Oject Oriented Program course at my school. We done 99% for the project and it run perfectly.",
   },
   {
+    place: "Pacman Game",
+    tenure: "February 2023",
+    role: "Coder and Developer",
+    Detail: "This game was made for fun to do some little projects about game. The pictures I have in this game is all on internet. The logic in this game I followed by rule Pacman Website on Internet",
+  },
+  {
     place: "Web Software-M4",
     tenure: "March 2023 - April 2023",
     role: "Web Designer",
