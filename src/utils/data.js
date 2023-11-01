@@ -32,7 +32,8 @@ export const workExp = [
     place: "Pacman Game",
     tenure: "February 2023",
     role: "Coder and Developer",
-    Detail: "This game was made for fun to do some little projects about game. The pictures I have in this game is all on internet. The logic in this game I followed by rule Pacman Website on Internet",
+    detail:
+      "This game was made for fun to do some little projects about game. The pictures I have in this game is all on internet. The logic in this game I followed by rule Pacman Website on Internet.",
   },
   {
     place: "Web Software-M4",
@@ -78,7 +79,7 @@ export const introHeader = [
   {
     name: "For website developer",
   },
-]
+];
 
 export const myWorks = [
   {
@@ -196,7 +197,7 @@ export const mySkills = [
 export const sliderSettingsPortfolio = {
   dots: true,
   infinite: true,
-  autoplay: true, 
+  autoplay: true,
   autoplaySpeed: 2000,
   speed: 1000,
   slidesToShow: 3,
@@ -233,7 +234,7 @@ export const sliderSettingsPortfolio = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 1500,
       },
     },
@@ -243,7 +244,7 @@ export const sliderSettingsPortfolio = {
 export const sliderSettingsMySkills = {
   dots: false,
   infinite: true,
-  autoplay: true, 
+  autoplay: true,
   autoplaySpeed: 2000,
   speed: 1000,
   slidesToShow: 4,
@@ -280,7 +281,7 @@ export const sliderSettingsMySkills = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 1500,
       },
     },
