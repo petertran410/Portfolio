@@ -36,13 +36,13 @@ const Header = () => {
             <a href="">Home</a>
           </li>
           <li>
-            <a href="#experties">About</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
             <a href="#work">Experience</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#experties">About</a>
           </li>
           <div className={css.line}></div>
           <li>

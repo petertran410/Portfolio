@@ -29,6 +29,13 @@ export const workExp = [
       "Me and three more people which are my friends worked together to develop a java game which is in indie version. Our project was for project Oject Oriented Program course at my school. We done 99% for the project and it run perfectly.",
   },
   {
+    place: "Pacman Game",
+    tenure: "February 2023",
+    role: "Coder and Developer",
+    detail:
+      "This game was made for fun to do some little projects about game. The pictures I have in this game is all on internet. The logic in this game I followed by rule Pacman Website on Internet.",
+  },
+  {
     place: "Web Software-M4",
     tenure: "March 2023 - April 2023",
     role: "Web Designer",
@@ -72,7 +79,7 @@ export const introHeader = [
   {
     name: "For website developer",
   },
-]
+];
 
 export const myWorks = [
   {
@@ -190,7 +197,7 @@ export const mySkills = [
 export const sliderSettingsPortfolio = {
   dots: true,
   infinite: true,
-  autoplay: true, 
+  autoplay: true,
   autoplaySpeed: 2000,
   speed: 1000,
   slidesToShow: 3,
@@ -227,7 +234,7 @@ export const sliderSettingsPortfolio = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 1500,
       },
     },
@@ -237,7 +244,7 @@ export const sliderSettingsPortfolio = {
 export const sliderSettingsMySkills = {
   dots: false,
   infinite: true,
-  autoplay: true, 
+  autoplay: true,
   autoplaySpeed: 2000,
   speed: 1000,
   slidesToShow: 4,
@@ -274,7 +281,7 @@ export const sliderSettingsMySkills = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 1500,
       },
     },
